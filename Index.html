@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAMES Relationship Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="flames-title">
+            <span class="flames-letter">F</span>
+            <span class="flames-letter">L</span>
+            <span class="flames-letter">A</span>
+            <span class="flames-letter">M</span>
+            <span class="flames-letter">E</span>
+            <span class="flames-letter">S</span>
+        </h1>
+        <div class="flames-icon">❤️</div>
+        <div class="input-group">
+            <label for="name1">Your Name</label>
+            <input type="text" id="name1" required>
+        </div>
+        <div class="input-group">
+            <label for="name2">Partner's Name</label>
+            <input type="text" id="name2" required>
+        </div>
+        <button onclick="checkRelationship()">Check Relationship</button>
+        <div id="result"></div>
+        <div class="paper" id="paper"></div>
+    </div>
+    <div class="creator">Made with ♥️ Harris</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
